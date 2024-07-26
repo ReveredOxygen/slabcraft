@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "added-by-me"
-hash = "c41c20b5001805187c873782ad1d9c631f6ef51efa3ec88a459cad6f991dc087"
+hash = "32cd8f5fe4f2fdb2e973c58258a04f7e22cc63a6f8f0ff7c1a51c98e6a5f0c2b"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -198,6 +198,11 @@ hash = "e6eff4533154c7715f8a1fbc8c8b9c940e63b5878f6ce39e7ffef050a8da202f"
 metafile = true
 
 [[files]]
+file = "mods/emoji-type.pw.toml"
+hash = "3a2af4bb2ffed7ac37d25f4810e1b14e1a97bb0c14876baf332f749d4a3f16f4"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "a1041842c409ada82624134795d1f4412c4acb7dcc410a41c61e7853aead1dcd"
 metafile = true
@@ -335,6 +340,16 @@ metafile = true
 [[files]]
 file = "mods/mods-litematica-fabric-1-21-0-18-999-sakura-28-jar.pw.toml"
 hash = "35a2f41ba6dc3aa866986ebda9feed80f412a6c67294bbbe9e2690b1d5f27e1d"
+metafile = true
+
+[[files]]
+file = "mods/morechathistory.pw.toml"
+hash = "90f207724a47d6b32f45c6a53da2539f544df944709418761ec8ede01a401a47"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "100a5dfaccb55b107edc57e11fafc1222dc443ce9b669f0d79a39b488e3e45ae"
 metafile = true
 
 [[files]]
