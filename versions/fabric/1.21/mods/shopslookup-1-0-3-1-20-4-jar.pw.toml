@@ -1,0 +1,7 @@
+name = "shopslookup-1.0.3-1.20.4.jar"
+filename = "shopslookup-1.0.3-1.20.4.jar"
+
+[download]
+url = "https://github.com/TheMrEngMan/ShopsLookup/releases/download/1.0.3/shopslookup-1.0.3-1.20.4.jar"
+hash-format = "sha256"
+hash = "e63065fd653c4387a1aed3b371a108804c9b6f0d7b6a326b37d7919047ef1569"

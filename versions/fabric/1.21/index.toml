@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "added-by-me"
+hash = "c41c20b5001805187c873782ad1d9c631f6ef51efa3ec88a459cad6f991dc087"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "49c2396331e4dfdcc9dcd6298e8c9215978a545245fe69469475748eec849ee8"
+hash = "11e40dc18668248fb6295e09f9983b5416c8d7d07ab3a3dc009e1ce4fd805335"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "d438f3a565869dd4f9599c809afd87dfddc5b3e0a34ec6723d018bd7bcf9a42e"
+hash = "9d39949c91cef0b7a71c5d3702b05dec0f526e831204f477868081e9f3d200aa"
 
 [[files]]
 file = "config/puzzle.json"
@@ -25,6 +29,10 @@ file = "config/yosbr/config/NoChatReports/NCR-Encryption.json"
 hash = "69b2e8613a2e3084367295c7b74cb598957f97bb9b9cfe56eb7b7a3187d86b66"
 
 [[files]]
+file = "config/yosbr/config/autoserverworldselection.json"
+hash = "09bcb9a41f43731e09dce695f9def4fb1eb92bdefcc6c6d5f4808625d30ef956"
+
+[[files]]
 file = "config/yosbr/config/bettergrass.json5"
 hash = "5ba4ad8c50ca8715fe648e7e68e8b5df0fe05acac0f9b152cedd93a6250ae386"
 
@@ -38,7 +46,7 @@ hash = "080ec08b7754723a3fa7c45cc0c37f251cc69ff5a07c06bb0f9cb40596373bbe"
 
 [[files]]
 file = "config/yosbr/config/cull-less-leaves.json"
-hash = "e94813034405ef213afd650f1c7e9ff454a04435a8b72a74a73d470db41f5abc"
+hash = "9fb7d5474be3305093325b24466aa4175685833797e391f1c07ec31d66f2a53d"
 
 [[files]]
 file = "config/yosbr/config/dynamic_fps.json"
@@ -65,8 +73,16 @@ file = "config/yosbr/config/immediatelyfast.json"
 hash = "fe6551b3aa77d3b624acff41ed6bf65b3d6d5c8821b7bda8875ff7b6b75e0c43"
 
 [[files]]
+file = "config/yosbr/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "cc48502e1b97d337a198b8f5b66475acc4312bf550076f19b74eb753b548cdf1"
+
+[[files]]
 file = "config/yosbr/config/iris.properties"
 hash = "4b404c16b82563e05e0cc8dc1218eb6194b2aa4473f348ff0c0c7a8655d9b5ff"
+
+[[files]]
+file = "config/yosbr/config/litematica.json"
+hash = "e6389d44919f437ae0be8d3375654ec034302a2271c09d4eadd5503469a255cc"
 
 [[files]]
 file = "config/yosbr/config/modernfix-mixins.properties"
@@ -81,6 +97,14 @@ file = "config/yosbr/config/ryoamiclights.toml"
 hash = "d6afc19db2764da5ae94c735f9544987a5a4686305d1478d31fdca800a94444c"
 
 [[files]]
+file = "config/yosbr/config/shopslookup.json"
+hash = "590cf6359165bd3cda70ed39a651c82ac5e533feaa9be03e0c9eaaab85e126b5"
+
+[[files]]
+file = "config/yosbr/config/shulkerboxtooltip.json5"
+hash = "ba103d6abadc5b8fec9c88a18b431e38550ca0f167fd68ee22c195c736019119"
+
+[[files]]
 file = "config/yosbr/config/sodium-options.json"
 hash = "6555c8c1fc4d773df097895dfb76fe004377347581d5731f5408fb9d138585a2"
 
@@ -93,8 +117,20 @@ file = "config/yosbr/config/world-host.json5"
 hash = "024ab81167c90c77a81797fdc769b7d4b96c2d2be076b5f94ce28c289c05cd1d"
 
 [[files]]
+file = "config/yosbr/config/xaerominimap.txt"
+hash = "644a9a2742a95d4011ee338424155c59b30fa5c55efa9622d466264082ae1834"
+
+[[files]]
+file = "config/yosbr/config/xaeroworldmap.txt"
+hash = "2c4d4ca6d4a8bd728fd81c63b4b835a5c74440204e61f9b9e5d87be31927ab96"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "93c4b423cf982419932b7085a1233ae956061f262fb732fd7f132a6c56817c9a"
+hash = "0c25946be5d9aa330103eb0be35b93ca49299da24468ffc01ff42b40d518abf9"
+
+[[files]]
+file = "config/yosbr/servers.dat"
+hash = "6ad87d09e4b9450d627c0755e3e4a443a62728ece935bf1f4498eda67b2ebd02"
 
 [[files]]
 file = "mods/animatica.pw.toml"
@@ -104,6 +140,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "79ab4fc83d9cd5db3c935a4374b0328d0b1eaa056c5315f93551e914ab4fdcae"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "5e0adbaf5a22a684b1691eea9a8c4daa6b1eb2b5d821ac83c558ef015d15d51a"
 metafile = true
 
 [[files]]
@@ -124,6 +165,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "0f24f7bd2057b70b6816de4e66922b64f8b6635dc603e40cc45d62646dc7221d"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "314cd3d09bb98a39542551090e3daefd5fa3cfc184bcd134cf4c8a820e804281"
 metafile = true
 
 [[files]]
@@ -212,6 +258,11 @@ hash = "6e572f70d25f8f509761cb13f0d29eb2f9333713e4d32b33ecd576f7545a738e"
 metafile = true
 
 [[files]]
+file = "mods/freecam-fabric-1-3-0-beta1-mc1-21-jar.pw.toml"
+hash = "2bc206e6af1dd951eed03b1042d70f9fd9c0da6b8814479fc740c389825a96e9"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "29b7078e678c6b90f607f9b09eaedc927fb274382963f39138b72243f2714224"
 metafile = true
@@ -222,6 +273,11 @@ hash = "ec7ddc7195eaec44adb0a060c48d919bedb82775a3b683f8da21ab2eb6921ab1"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "664b83356f5ca10ab286db442854032fa4f9d912d54b5f63452468a380335e8e"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "315648c1b6910b274d4a16bda8eba7ddf380d928edb20c0c36f3ff9776e30fe5"
 metafile = true
@@ -229,6 +285,11 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "fd77358f512f332ee2113e5fd9d8929ff9fc5952c78f3693c98e27b0de77fef9"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "4ba4a6bfb2a8a35f378cfff1ea81a46d08ee1c3ab344be34cb792aa0e5418ed2"
 metafile = true
 
 [[files]]
@@ -247,6 +308,11 @@ hash = "732e3a5fb7d7c41c380d1ba92118293db75d5a7f2c05a6df6ac04c54c4bd1a22"
 metafile = true
 
 [[files]]
+file = "mods/malilib.pw.toml"
+hash = "b6b3cd357074c63b7fca9058fa00d4ddc145ea3afde870653a3ebef7de185293"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "e2cc568688c5bcd0e41235681bc34c5c9849f214f65b43324bc25022d9ad8c80"
 metafile = true
@@ -259,6 +325,16 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "e37792db4c4b69e11243c7470f0f2a791dc016381e460cd5616eccb6b567b5ab"
+metafile = true
+
+[[files]]
+file = "mods/mods-autoserverworldselection-1-0-4-1-20-4-jar.pw.toml"
+hash = "f60c08196f892538f8048bf45f83fcdc258fa02b69be929ecd7f24365862dbc6"
+metafile = true
+
+[[files]]
+file = "mods/mods-litematica-fabric-1-21-0-18-999-sakura-28-jar.pw.toml"
+hash = "35a2f41ba6dc3aa866986ebda9feed80f412a6c67294bbbe9e2690b1d5f27e1d"
 metafile = true
 
 [[files]]
@@ -307,6 +383,26 @@ hash = "249b71e84f094f716c122fbdd366e802159482d5d68681acb6e8d73ed9685bad"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "6337ceb74ee951a937b2768544a1bf11812aa92628a81b9a13e66c687f9853fb"
+metafile = true
+
+[[files]]
+file = "mods/shopslookup-1-0-3-1-20-4-jar.pw.toml"
+hash = "0462a45351fef739eba78a36a8427fce37381bdd5e2f39d2b02578fc1b4963aa"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "45910a70021a8db0da310c1255a255402b052d53c944ecb9159d29e7c0e6db45"
+metafile = true
+
+[[files]]
+file = "mods/simple-shulker-preview.pw.toml"
+hash = "22db05a21811671167b84f774272dff21d21de066eb96968ea88467dc2f238ef"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "28f2167da063c1be7b1f4e534cdcbb446daa569cc32ffe1c0705663a9a06a5b9"
 metafile = true
@@ -327,6 +423,16 @@ hash = "0374a62a31e020f03585ab824a6169a44e82adb33844f31fb097c2d76269579d"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap-fair.pw.toml"
+hash = "697df1e5e4f4dcd50d8e36a281096c3a0f39c744714d314054f84f16d186e912"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "e9f628cc8d3a658a9b0ceb2272993d0dd9f5736aad1fb8178e6071cd63a8438e"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "6a22d14251ccfb61007da299c1040bcb3904bd0cc43e5d1ba96536b94ed43036"
 metafile = true
@@ -335,6 +441,10 @@ metafile = true
 file = "mods/yosbr.pw.toml"
 hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Slabcraft.zip"
+hash = "64e2a289aae288a8b1e4487d06a889fa7d1ebdfe642d32587ab518699eb8cbe0"
 
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"

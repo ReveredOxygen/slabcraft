@@ -1,12 +1,12 @@
-name = "Additive"
-author = "SkywardMC"
-version = "1.29.1+1.21.fabric"
+name = "Slabcraft"
+author = "ReveredOxygen"
+version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "11ad6337959e51b02050adbfe7ec381dcc09d0b204be5d374744d952ed4a103f"
+hash = "f7d27d08588e9475d54434441c37980baf7197cc04967f9c43eceeddea637e46"
 
 [versions]
 fabric = "0.15.11"

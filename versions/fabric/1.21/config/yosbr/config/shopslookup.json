@@ -1,0 +1,10 @@
+{
+  "updateInterval": 0,
+  "resultsPerPage": 8,
+  "waypointColor": "AQUA",
+  "defaultSpreadsheetColumnNames": "Item, Shop name, Type, Location",
+  "useEnglishForItemNameSuggestions": false,
+  "serverShopURLs": {
+    "slabserver.org": "https://docs.google.com/spreadsheets/d/1AQfYyAsAXq4XJAosQXLWFgcDEf2cwBeHiEsjGtp80Oc/edit#gid\u003d1623873372"
+  }
+}

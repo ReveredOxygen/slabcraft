@@ -1,0 +1,7 @@
+name = "mods/autoserverworldselection-1.0.4-1.20.4.jar"
+filename = "autoserverworldselection-1.0.4-1.20.4.jar"
+
+[download]
+url = "https://github.com/TheMrEngMan/AutoServerWorldSelection/releases/download/1.0.4/autoserverworldselection-1.0.4-1.20.4.jar"
+hash-format = "sha256"
+hash = "c63b01dea19a85d0d594ece90de2f4eef30b65d7514e320dd3af5575dd24ecf8"
