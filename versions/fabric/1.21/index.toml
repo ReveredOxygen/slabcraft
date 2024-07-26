@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "added-by-me"
-hash = "32cd8f5fe4f2fdb2e973c58258a04f7e22cc63a6f8f0ff7c1a51c98e6a5f0c2b"
-
-[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "11e40dc18668248fb6295e09f9983b5416c8d7d07ab3a3dc009e1ce4fd805335"
 
@@ -111,6 +107,10 @@ hash = "6555c8c1fc4d773df097895dfb76fe004377347581d5731f5408fb9d138585a2"
 [[files]]
 file = "config/yosbr/config/threadtweak.json"
 hash = "545cbe317c5146bacb9e13c7c03a605f0b6bd6e1ddaf1a05f8be8537d6f8b0ce"
+
+[[files]]
+file = "config/yosbr/config/tweakeroo.json"
+hash = "0636c8843877b99f09fb2bdc0f3b94db55f57538619daeff0a5d8b4527b3a269"
 
 [[files]]
 file = "config/yosbr/config/world-host.json5"
@@ -430,6 +430,11 @@ metafile = true
 [[files]]
 file = "mods/threadtweak.pw.toml"
 hash = "f937ca0de07e36477286eebbd0b592920b5d8c76c0422d27bd2303732061bf5e"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo-fabric-1-21-0-20-999-sakura-20-jar.pw.toml"
+hash = "532a5187b3bbcc384039ea6742dded364ab0cca7922bcb3be30f4d6ac0a689f0"
 metafile = true
 
 [[files]]
