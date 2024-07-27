@@ -13,6 +13,14 @@ file = "config/puzzle.json"
 hash = "f546f5a9367d113277de4051e3c14b898dea9490d9bd9f8240f222e0ea062c22"
 
 [[files]]
+file = "config/splasher/\\"
+hash = "9bbd702c14d05cc23e81c42df1d4db6bd2f0b57cb91fb5a8a005fe855cdbb653"
+
+[[files]]
+file = "config/splasher/en_us.txt"
+hash = "a5003a0f15f5f3a5f696c89c84f98cabd045b7c8806070dc597638d1ae06a6c0"
+
+[[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
 hash = "e0d9ce47a87536c707b797789b53e9e4f09b273f69098b1303b0815ebd82b3c5"
 
@@ -359,6 +367,11 @@ hash = "90f207724a47d6b32f45c6a53da2539f544df944709418761ec8ede01a401a47"
 metafile = true
 
 [[files]]
+file = "mods/night-auto-config.pw.toml"
+hash = "6de4308bde4efc305ec9fe92744d8726ba5b2546c7c1bef7855c10ebd21db3fa"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "100a5dfaccb55b107edc57e11fafc1222dc443ce9b669f0d79a39b488e3e45ae"
 metafile = true
@@ -436,6 +449,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "280cf7ad4ec95bd95eef81a7f327095c5f40e1b8aa45cea91284bfd19395d69e"
+metafile = true
+
+[[files]]
+file = "mods/splasher.pw.toml"
+hash = "2023c4d7ac03cc657f303642f890a645a1db07a26b0b046416e2f6ecda88c29b"
 metafile = true
 
 [[files]]
