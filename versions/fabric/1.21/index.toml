@@ -134,7 +134,7 @@ hash = "2c4d4ca6d4a8bd728fd81c63b4b835a5c74440204e61f9b9e5d87be31927ab96"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "905861816c139904131af26a94db4c9288120c4ac6cc7bf2004ca3ad6cfad3ba"
+hash = "936c16352dcd1c480c9dde01f66d714a3b4d9d85b8b580ce19adbc7303ebec76"
 
 [[files]]
 file = "config/yosbr/servers.dat"
@@ -476,6 +476,10 @@ metafile = true
 file = "mods/yosbr.pw.toml"
 hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
+
+[[files]]
+file = "resourcepacks/LGBeeT_1.20.3-1.20.4.zip"
+hash = "3d112beea173c813d1d5e99475a0df9678d6a37501db0bd0c8edef5eb3128865"
 
 [[files]]
 file = "resourcepacks/Slabcraft.zip"
