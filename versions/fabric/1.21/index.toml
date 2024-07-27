@@ -33,6 +33,10 @@ file = "config/yosbr/config/NoChatReports/NCR-Encryption.json"
 hash = "69b2e8613a2e3084367295c7b74cb598957f97bb9b9cfe56eb7b7a3187d86b66"
 
 [[files]]
+file = "config/yosbr/config/authme.json5"
+hash = "a1e2d6cb594402575879d9d1db79f48d9b5e82b617748f2426e90c1e224066ae"
+
+[[files]]
 file = "config/yosbr/config/autoserverworldselection.json"
 hash = "09bcb9a41f43731e09dce695f9def4fb1eb92bdefcc6c6d5f4808625d30ef956"
 
@@ -155,6 +159,11 @@ hash = "6ad87d09e4b9450d627c0755e3e4a443a62728ece935bf1f4498eda67b2ebd02"
 [[files]]
 file = "mods/animatica.pw.toml"
 hash = "58134b8f4cca95555746efad25cc8a56c39ed57ba05f78d3aa61b603d378180c"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.pw.toml"
+hash = "3efb5df489cdac5c07964f7d2d6bcb8f0464f76e55b4397ed85f9e378fa1a784"
 metafile = true
 
 [[files]]
