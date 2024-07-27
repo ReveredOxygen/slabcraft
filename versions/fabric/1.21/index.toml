@@ -101,6 +101,10 @@ file = "config/yosbr/config/modmenu.json"
 hash = "ee8d1a6f11ea009f37abba6325d97766910e1786b0de848aa307771d8a87ed72"
 
 [[files]]
+file = "config/yosbr/config/replaymod.json"
+hash = "da659a1ea97aeeb8f8f7f9fcfc6d3a3a0f4a802407ec0fb7bf9663bb6eae3618"
+
+[[files]]
 file = "config/yosbr/config/ryoamiclights.toml"
 hash = "d6afc19db2764da5ae94c735f9544987a5a4686305d1478d31fdca800a94444c"
 
