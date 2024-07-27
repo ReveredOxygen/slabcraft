@@ -113,6 +113,10 @@ file = "config/yosbr/config/threadtweak.json"
 hash = "545cbe317c5146bacb9e13c7c03a605f0b6bd6e1ddaf1a05f8be8537d6f8b0ce"
 
 [[files]]
+file = "config/yosbr/config/tweakermore.json"
+hash = "85c1744278af1a0caa10cec93546253c0ac60eaa734c4e805061126b8b855081"
+
+[[files]]
 file = "config/yosbr/config/tweakeroo.json"
 hash = "0636c8843877b99f09fb2bdc0f3b94db55f57538619daeff0a5d8b4527b3a269"
 
@@ -130,7 +134,7 @@ hash = "2c4d4ca6d4a8bd728fd81c63b4b835a5c74440204e61f9b9e5d87be31927ab96"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "0c25946be5d9aa330103eb0be35b93ca49299da24468ffc01ff42b40d518abf9"
+hash = "905861816c139904131af26a94db4c9288120c4ac6cc7bf2004ca3ad6cfad3ba"
 
 [[files]]
 file = "config/yosbr/servers.dat"
@@ -437,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/threadtweak.pw.toml"
 hash = "f937ca0de07e36477286eebbd0b592920b5d8c76c0422d27bd2303732061bf5e"
+metafile = true
+
+[[files]]
+file = "mods/tweakermore.pw.toml"
+hash = "00f99d9ab44814e87d3c54a1bd4ec64089f9a07721f2d207ee116327c313fb2f"
 metafile = true
 
 [[files]]
