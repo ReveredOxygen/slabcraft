@@ -1,7 +1,0 @@
-name = "mods/litematica-fabric-1.21-0.18.999-sakura.28.jar"
-filename = "litematica-fabric-1.21-0.18.999-sakura.28.jar"
-
-[download]
-url = "https://github.com/sakura-ryoko/litematica/releases/download/1.21-sakura.28/litematica-fabric-1.21-0.18.999-sakura.28.jar"
-hash-format = "sha256"
-hash = "779acfecc57d3484be181590376b9c66f1f2107545f70dcae69d68281757d1fd"

@@ -302,6 +302,10 @@ hash = "4ba4a6bfb2a8a35f378cfff1ea81a46d08ee1c3ab344be34cb792aa0e5418ed2"
 metafile = true
 
 [[files]]
+file = "mods/litematica-fabric-1.21-0.18.999-sakura.29.jar"
+hash = "0c78fc6c0aac5892aa067c23466cf2a9180e51fc26b82738bf49751fb40ca268"
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "019e6f258127d947cf0b43227c198365b107e35d4e16e29ee8388986aaf62d77"
 metafile = true
@@ -322,6 +326,10 @@ hash = "b6b3cd357074c63b7fca9058fa00d4ddc145ea3afde870653a3ebef7de185293"
 metafile = true
 
 [[files]]
+file = "mods/minihud-fabric-1.21-0.31.999-sakura.14.jar"
+hash = "58d62138aeb9705c48678893b9a6913a029b386bda143f96ad13df83fe374588"
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "e2cc568688c5bcd0e41235681bc34c5c9849f214f65b43324bc25022d9ad8c80"
 metafile = true
@@ -339,16 +347,6 @@ metafile = true
 [[files]]
 file = "mods/mods-autoserverworldselection-1-0-4-1-20-4-jar.pw.toml"
 hash = "f60c08196f892538f8048bf45f83fcdc258fa02b69be929ecd7f24365862dbc6"
-metafile = true
-
-[[files]]
-file = "mods/mods-litematica-fabric-1-21-0-18-999-sakura-28-jar.pw.toml"
-hash = "35a2f41ba6dc3aa866986ebda9feed80f412a6c67294bbbe9e2690b1d5f27e1d"
-metafile = true
-
-[[files]]
-file = "mods/mods-minihud-fabric-1-21-0-31-999-sakura-14-jar.pw.toml"
-hash = "487f4ce699b8576d2c1fed1051cd896047113f0061dda0e6874b072c98964767"
 metafile = true
 
 [[files]]
@@ -442,9 +440,8 @@ hash = "f937ca0de07e36477286eebbd0b592920b5d8c76c0422d27bd2303732061bf5e"
 metafile = true
 
 [[files]]
-file = "mods/tweakeroo-fabric-1-21-0-20-999-sakura-21-jar.pw.toml"
-hash = "1d4b60540251c727e8a14a56a71158f7e305bd0e749898776496b4fe709a444e"
-metafile = true
+file = "mods/tweakeroo-fabric-1.21-0.20.999-sakura.21.jar"
+hash = "6c8dad64eb1e5eb5abd2765e9f016e07ebb1200a5d309bb727dbf608ec8bc0f7"
 
 [[files]]
 file = "mods/world-host.pw.toml"
