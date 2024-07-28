@@ -72,7 +72,6 @@
     "commandNameSetblock": "setblock",
     "commandNameSummon": "summon",
     "commandTaskInterval": 1,
-    "customSchematicBaseDirectory": "/home/user/.local/share/PrismLauncher/instances/Slab Client-1.29.1+1.21.fabric/.minecraft/schematics",
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick"

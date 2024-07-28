@@ -90,7 +90,7 @@ hash = "4b404c16b82563e05e0cc8dc1218eb6194b2aa4473f348ff0c0c7a8655d9b5ff"
 
 [[files]]
 file = "config/yosbr/config/litematica.json"
-hash = "e6389d44919f437ae0be8d3375654ec034302a2271c09d4eadd5503469a255cc"
+hash = "787e49c775400e98493df8e81b4f21fe68da26c98f7dbb15d734cbac462f0498"
 
 [[files]]
 file = "config/yosbr/config/minihud.json"
@@ -130,7 +130,7 @@ hash = "545cbe317c5146bacb9e13c7c03a605f0b6bd6e1ddaf1a05f8be8537d6f8b0ce"
 
 [[files]]
 file = "config/yosbr/config/tweakermore.json"
-hash = "85c1744278af1a0caa10cec93546253c0ac60eaa734c4e805061126b8b855081"
+hash = "c7b65cbd36d3c4da3f520eb6fe9bc527c20e04384608a8a7561dbca64abab3b0"
 
 [[files]]
 file = "config/yosbr/config/tweakeroo.json"
