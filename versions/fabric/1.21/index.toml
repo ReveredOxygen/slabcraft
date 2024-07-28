@@ -6,7 +6,7 @@ hash = "11e40dc18668248fb6295e09f9983b5416c8d7d07ab3a3dc009e1ce4fd805335"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "9d39949c91cef0b7a71c5d3702b05dec0f526e831204f477868081e9f3d200aa"
+hash = "008fc81a73e013c4a980c304da911fb84a40666cf8c23ae09a6fd7ca8e44040d"
 
 [[files]]
 file = "config/puzzle.json"
