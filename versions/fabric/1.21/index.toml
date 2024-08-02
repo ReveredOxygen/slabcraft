@@ -499,6 +499,11 @@ hash = "2023c4d7ac03cc657f303642f890a645a1db07a26b0b046416e2f6ecda88c29b"
 metafile = true
 
 [[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "563199dd7474844a71797be5114c798df3ded2d7bc0c9d384d9fd4aaa1b831b9"
+metafile = true
+
+[[files]]
 file = "mods/threadtweak.pw.toml"
 hash = "f937ca0de07e36477286eebbd0b592920b5d8c76c0422d27bd2303732061bf5e"
 metafile = true
