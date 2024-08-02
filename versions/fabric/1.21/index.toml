@@ -86,7 +86,7 @@ hash = "fe6551b3aa77d3b624acff41ed6bf65b3d6d5c8821b7bda8875ff7b6b75e0c43"
 
 [[files]]
 file = "config/yosbr/config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "cc48502e1b97d337a198b8f5b66475acc4312bf550076f19b74eb753b548cdf1"
+hash = "f0ec4f019fc525a5086408eb8b4122ffcdbfa0e500e8af86a1a8741ea0d4b623"
 
 [[files]]
 file = "config/yosbr/config/iris.properties"
@@ -163,6 +163,11 @@ hash = "6ad87d09e4b9450d627c0755e3e4a443a62728ece935bf1f4498eda67b2ebd02"
 [[files]]
 file = "mods/animatica.pw.toml"
 hash = "58134b8f4cca95555746efad25cc8a56c39ed57ba05f78d3aa61b603d378180c"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "af482cdaf7c5d9d5481e7cd789d98ebc17f47e4565a28af6c6365aef896d1404"
 metafile = true
 
 [[files]]
