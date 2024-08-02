@@ -49,6 +49,10 @@ file = "config/yosbr/config/betterpingdisplay.json"
 hash = "733bdb1ac5da96697fd0e1c9788d61b731f5004dee8a9a5867c45c5dbf22053a"
 
 [[files]]
+file = "config/yosbr/config/bobby.conf"
+hash = "8e76fb4062b8f7968a575395a4142d6c539fa6d0fddfabc51a8f80af8167f792"
+
+[[files]]
 file = "config/yosbr/config/capes.json5"
 hash = "1e673e5c776fc34a35e2df497d76d9081ad0f0b5c89ded17d2fd57fe1969272f"
 
