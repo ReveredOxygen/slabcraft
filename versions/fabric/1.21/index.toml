@@ -106,7 +106,7 @@ hash = "640716eba97c96131e21d958987a83642c2533aad0381f71b97841fc60b37160"
 
 [[files]]
 file = "config/yosbr/config/modernfix-mixins.properties"
-hash = "22caf99f6531254b612c35bc12aff9c2b6d121b038b2e418a1a429049d16c9e0"
+hash = "ace93efeaa6066620a3e1dc37b01a1ee23fb9c1df228d541ea9326def178bab9"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
