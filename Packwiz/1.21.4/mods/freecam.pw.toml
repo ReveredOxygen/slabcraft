@@ -1,0 +1,7 @@
+name = "freecam"
+filename = "freecam-fabric-1.3.2+mc1.21.4.jar"
+
+[download]
+url = "https://github.com/MinecraftFreecam/Freecam/releases/download/v1.3.2/freecam-fabric-1.3.2+mc1.21.4.jar"
+hash-format = "sha256"
+hash = "6863ab5244353097195f91f87b063d88c2600fcc802a299ed0f7ab29a3836ebd"

@@ -1,165 +1,42 @@
-<div align="center">
+[![Built on Fabulously Optimized](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/built-with/fabulously-optimized_46h.png)](https://download.fo)
 
-<img src="https://download.fo/icon.png" alt="FO logo" width="10%" height="10%">
+This modpack aims to bundle most of the mods that I expect most players would want on Slabserver. It uses [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized) as a base for performance and Optifine features, and includes additional features on top. Importantly, every mod is configured in a way that follows Slab's rules. If a feature is illegal on Slab, its keybind will be set to `SCROLL_LOCK`. Do not rebind or enable these features without asking the admins for permission.  
+Please read [Slab's modding rules](https://github.com/Slabserver/Slabserver-Documentation/wiki/Client-Mods) before using this pack, as some mods have restrictions that the player is expected to follow. If you're only using visual or map-related features, this is not relevant to you. If a feature in the list below has **[RESTRICTED]** next to it, make sure to read the rules before using it, as there are restrictions on how you're allowed to use it on Slab.
 
-# Fabulously Optimized
+# Installing
 
-[![Official Website][img-website]][url-website]
-[![Support and Contribute][img-contribute]][url-contribute]
-[![Read the Wiki][img-wiki]][url-wiki]
+I recommend using [Prism Launcher](https://prismlauncher.org/) to manage your mods. To install the pack in Prism, the steps are as follows:  
 
-[![Mod list][img-mods]][file-mods]
-[![Changed Options][img-options]][url-options]
-[![Resource Packs][img-rp]][url-rp]
-[![Help us Translate][img-translate]][url-translate]
+- Install and open Prism  
+- Click "Add Instance" in the top left corner  
+- Click "Modrinth" in the left sidebar  
+- Type "Slabcraft" into the search bar  
+- Click on the search result for Slabcraft  
+- Click OK  
+- The pack will install. When you return to the main menu, you can double click the new icon in order to open it.  
 
-[![Discord][img-discord]][url-discord]
-[![GitHub][img-github]][url-github]
-[![Mastodon][img-mastodon]][url-mastodon]
+## Updating
 
-A simple Minecraft modpack focusing on performance and graphics enhancements.
+To update under Prism, the steps are as follows:
 
-</div>
+- Select the pack (single click; don't launch it)
+- Click "Edit" in the right sidebar.
+- Click "Modrinth" in the left sidebar.
+- Click "Update pack"
 
-## Download
+# Features
 
-[![Installation Guide][img-install]][url-install]
-[![CurseForge][img-cf]][url-cf]
-[![Modrinth][img-modrinth]][url-modrinth]
-
-> By downloading Fabulously Optimized, you have acknowledged the [disclaimers][url-terms].
-
-We recommend and support five launchers, all of which can be used offline on 🪟 Windows, 🐧 Linux and 🍏 macOS.
-
-See this table for a comparison between the launchers:
-
-| Launcher                                      |               Tutorial               |    Install    |     Upgrade     |   Add mods    | Support us and mods |
-| --------------------------------------------- | :----------------------------------: | :-----------: | :-------------: | :-----------: | :-----------------: |
-| [CurseForge App][url-app-cf]                  |    [🔗&nbsp;Open][url-tutorial-cf]    |  ✅&nbsp;Easy  |   ✅&nbsp;Easy   |  ✅&nbsp;Easy  |     ✅&nbsp;Yes      |
-| [Modrinth App][url-app-modrinth]              | [🔗&nbsp;Open][url-tutorial-modrinth] |  ✅&nbsp;Easy  |   ✅&nbsp;Easy   |  ✅&nbsp;Easy  |     ✅&nbsp;Yes      |
-| [Prism Launcher][url-app-prism]               |  [🔗&nbsp;Open][url-tutorial-prism]   |  ✅&nbsp;Easy  |   ✅&nbsp;Easy   |  ✅&nbsp;Easy  |   ⏺️<sup>[2]</sup>   |
-| [MultiMC][url-app-multimc]                    | [🔗&nbsp;Open][url-tutorial-multimc]  |  ✅&nbsp;Easy  |  ❌&nbsp;Manual  | ❌&nbsp;Manual |   ⏺️<sup>[2]</sup>   |
-| [MultiMC (auto-update)][url-app-mmcu]           |   [🔗&nbsp;Open][url-tutorial-mmcu]   |  ✅&nbsp;Easy  | ⏺️<sup>[1]</sup> | ❌&nbsp;Manual |   ⏺️<sup>[2]</sup>   |
-| [Minecraft Launcher][url-app-vanilla] (installer) | [🔗&nbsp;Open][url-tutorial-vanilla] |  ✅&nbsp;Easy  | ✅&nbsp;Easy | ❌&nbsp;Manual |   ⏺️<sup>[2]</sup>   |
-| [Minecraft Launcher][url-app-vanilla] (manual setup) | [🔗&nbsp;Open][url-tutorial-vanilla]  | ❌&nbsp;Manual |  ❌&nbsp;Manual  | ❌&nbsp;Manual |   ⏺️<sup>[2]</sup>   |
-
-> [!NOTE]
->
-> **[1]**: Updates to the modpack within the same Minecraft version are automatic. The modpack cannot be updated automatically across Minecraft versions.
->
-> **[2]**: These launchers support the modpack and its mods by increasing their download count, but not with monetary benefits.
-
-<details><summary>Download Resource Packs separately</summary>
-
-FO includes some resource packs [for a better experience][url-rp], but they can also be downloaded separately.
-
-| Resource Pack             | CurseForge                  | Modrinth                        | Planet Minecraft                   |
-| ------------------------- | --------------------------- | ------------------------------- | ---------------------------------- |
-| **Chat Reporting Helper** | [CurseForge][url-rp-crh-cf] | [Modrinth][url-rp-crh-modrinth] | [Planet Minecraft][url-rp-crh-pmc] |
-| **Fast Better Grass**     | [CurseForge][url-rp-fbg-cf] | [Modrinth][url-rp-fbg-modrinth] | [Planet Minecraft][url-rp-fbg-pmc] |
-
-</details>
-
-## Credits
-
-- [TheYTG123][url-credits-TheYTG123] on CurseForge who helped with Jumploader to release the 1.16.3 version a little faster
-- [triphora][url-credits-triphora] who suggested and helped with the Modrinth format, and formerly moderated the FO Discord server
-- [RozeFound][url-credits-RozeFound] for helping with Python scripts and providing lots of constructive feedback for the pack
-- [TheMadHau5][url-credits-TheMadHau5], [redbrain][url-credits-redbrain], [Kichura][url-credits-Kichura] for the [fancy mod table][file-mods]
-- [RaptaG][url-credits-RaptaG] and [Ultrasonic1209][url-credits-Ultrasonic1209] for the [Packwiz mod ignoring tutorials][url-tutorial-mmcu-ignoremods]
-- [IMB11][url-credits-IMB11] for the fancy website
-- [vgskye][url-credits-vgskye] for the fancy installer (and [osfanbuff63][url-credits-osfanbuff63] for the installer that didn't get released)
-- [Miroma][url-credits-Miroma] for the current version of this readme
-- All our [fabulous translators][url-credits-translators]
-- Other people creating pull requests for [the main project][url-github-main-graph], [wiki][url-github-wiki-graph] and [other organization projects][url-github-org]
-- People who have created videos about the modpack
-- Everyone who has suggested ideas and reported bugs!
-
-Special thanks to:
-
-- [jellysquid3][url-credits-jellysquid3] for creating [Sodium][url-credits-jellysquid3-sodium], [Lithium][url-credits-jellysquid3-lithium], [Phosphor][url-credits-jellysquid3-phosphor] which were the initial inspiration for creating the modpack
-- [LambdAurora][url-credits-LambdAurora] for creating [the list of OptiFine alternatives][url-credits-LambdAurora-alternatives] which the pack does get some mod ideas from, and [LambDynamicLights][url-credits-LambdAurora-LambDynamicLights]
-- [comp500][url-credits-comp500] for creating [Jumploader][url-credits-comp500-Jumploader] - a mod that made the modpack possible in Minecraft 1.16.x, [Indium][url-credits-comp500-Indium] - mod that provided the rendering API for Sodium for increased mod compatibility and [packwiz][url-credits-comp500-packwiz] - a tool that makes the MultiMC auto-update happen
-- Mod devs who have joined the Discord and are discussing the modpack's development there
-- All developers who made the mods that are, have been and will be in the modpack
-- Everyone who uses, tests and shares the modpack!
-
-<!-- Files -->
-[file-mods]: <INCLUDED-MODS.md>
-
-<!-- Images -->
-[img-cf]: <https://img.shields.io/curseforge/dt/396246?style=for-the-badge&label=CurseForge&color=orange&logoColor=orange&labelColor=black&logo=curseforge>
-[img-discord]: <https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2Ffabulously-optimized-859124104644788234%3Fwith_counts%3Dtrue&query=approximate_member_count&style=for-the-badge&label=Discord&color=5865F2&logoColor=white&labelColor=black&logo=discord>
-[img-github]: <https://img.shields.io/github/stars/Fabulously-Optimized/fabulously-optimized?style=for-the-badge&label=Stars&color=white&logoColor=white&labelColor=black&logo=github>
-[img-install]: <https://img.shields.io/badge/Installation%20Guide-black?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik00ODAtMzIwIDI4MC01MjBsNTYtNTggMTA0IDEwNHYtMzI2aDgwdjMyNmwxMDQtMTA0IDU2IDU4LTIwMCAyMDBaTTI0MC0xNjBxLTMzIDAtNTYuNS0yMy41VDE2MC0yNDB2LTEyMGg4MHYxMjBoNDgwdi0xMjBoODB2MTIwcTAgMzMtMjMuNSA1Ni41VDcyMC0xNjBIMjQwWiIgZmlsbD0iI2ZmZmZmZiIvPjwvc3ZnPg%3D%3D>
-[img-mastodon]: <https://img.shields.io/mastodon/follow/109406313733713199?style=for-the-badge&domain=https%3A%2F%2Ffloss.social%2F&label=Mastodon&color=6364FF&logoColor=white&labelColor=black&logo=mastodon>
-[img-modrinth]: <https://img.shields.io/modrinth/dt/1KVo5zza?style=for-the-badge&label=Modrinth&color=darkgreen&labelColor=black&logo=modrinth>
-[img-mods]: <https://img.shields.io/badge/Mod_list-darkgreen?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik0yODAtNjAwdi04MGg1NjB2ODBIMjgwWm0wIDE2MHYtODBoNTYwdjgwSDI4MFptMCAxNjB2LTgwaDU2MHY4MEgyODBaTTE2MC02MDBxLTE3IDAtMjguNS0xMS41VDEyMC02NDBxMC0xNyAxMS41LTI4LjVUMTYwLTY4MHExNyAwIDI4LjUgMTEuNVQyMDAtNjQwcTAgMTctMTEuNSAyOC41VDE2MC02MDBabTAgMTYwcS0xNyAwLTI4LjUtMTEuNVQxMjAtNDgwcTAtMTcgMTEuNS0yOC41VDE2MC01MjBxMTcgMCAyOC41IDExLjVUMjAwLTQ4MHEwIDE3LTExLjUgMjguNVQxNjAtNDQwWm0wIDE2MHEtMTcgMC0yOC41LTExLjVUMTIwLTMyMHEwLTE3IDExLjUtMjguNVQxNjAtMzYwcTE3IDAgMjguNSAxMS41VDIwMC0zMjBxMCAxNy0xMS41IDI4LjVUMTYwLTI4MFoiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4%3D>
-[img-options]: <https://img.shields.io/badge/Changed_Options-blue?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik00NDAtMTIwdi0yNDBoODB2ODBoMzIwdjgwSDUyMHY4MGgtODBabS0zMjAtODB2LTgwaDI0MHY4MEgxMjBabTE2MC0xNjB2LTgwSDEyMHYtODBoMTYwdi04MGg4MHYyNDBoLTgwWm0xNjAtODB2LTgwaDQwMHY4MEg0NDBabTE2MC0xNjB2LTI0MGg4MHY4MGgxNjB2ODBINjgwdjgwaC04MFptLTQ4MC04MHYtODBoNDAwdjgwSDEyMFoiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4%3D>
-[img-rp]: <https://img.shields.io/badge/Resource_Packs-purple?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Im0zNTItNTIyIDg2LTg3LTU2LTU3LTQ0IDQ0LTU2LTU2IDQzLTQ0LTQ1LTQ1LTg3IDg3IDE1OSAxNThabTMyOCAzMjkgODctODctNDUtNDUtNDQgNDMtNTYtNTYgNDMtNDQtNTctNTYtODYgODYgMTU4IDE1OVptMjQtNTY3IDU3IDU3LTU3LTU3Wk0yOTAtMTIwSDEyMHYtMTcwbDE3NS0xNzVMODAtNjgwbDIwMC0yMDAgMjE2IDIxNiAxNTEtMTUycTEyLTEyIDI3LTE4dDMxLTZxMTYgMCAzMSA2dDI3IDE4bDUzIDU0cTEyIDEyIDE4IDI3dDYgMzFxMCAxNi02IDMwLjVUODE2LTY0N0w2NjUtNDk1bDIxNSAyMTVMNjgwLTgwIDQ2NS0yOTUgMjkwLTEyMFptLTkwLTgwaDU2bDM5Mi0zOTEtNTctNTctMzkxIDM5MnY1NlptNDIwLTQxOS0yOS0yOSA1NyA1Ny0yOC0yOFoiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4%3D>
-[img-contribute]: <https://img.shields.io/badge/Support_and_Contribute-red?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Im00ODAtMTIwLTU4LTUycS0xMDEtOTEtMTY3LTE1N1QxNTAtNDQ3LjVRMTExLTUwMCA5NS41LTU0NFQ4MC02MzRxMC05NCA2My0xNTd0MTU3LTYzcTUyIDAgOTkgMjJ0ODEgNjJxMzQtNDAgODEtNjJ0OTktMjJxOTQgMCAxNTcgNjN0NjMgMTU3cTAgNDYtMTUuNSA5MFQ4MTAtNDQ3LjVRNzcxLTM5NSA3MDUtMzI5VDUzOC0xNzJsLTU4IDUyWiIgZmlsbD0iI2ZmZmZmZiIvPjwvc3ZnPg==>
-[img-translate]: <https://img.shields.io/badge/Help_us_Translate-orange?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Im00NzYtODAgMTgyLTQ4MGg4NEw5MjQtODBoLTg0bC00My0xMjJINjAzTDU2MC04MGgtODRaTTE2MC0yMDBsLTU2LTU2IDIwMi0yMDJxLTM1LTM1LTYzLjUtODBUMTkwLTY0MGg4NHEyMCAzOSA0MCA2OHQ0OCA1OHEzMy0zMyA2OC41LTkyLjVUNDg0LTcyMEg0MHYtODBoMjgwdi04MGg4MHY4MGgyODB2ODBINTY0cS0yMSA3Mi02MyAxNDh0LTgzIDExNmw5NiA5OC0zMCA4Mi0xMjItMTI1LTIwMiAyMDFabTQ2OC03MmgxNDRsLTcyLTIwNC03MiAyMDRaIiBmaWxsPSIjZmZmZmZmIi8%2BPC9zdmc%2B>
-[img-website]: <https://img.shields.io/badge/Official_Website-DBD0B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik00ODAtODBxLTgzIDAtMTU2LTMxLjVUMTk3LTE5N3EtNTQtNTQtODUuNS0xMjdUODAtNDgwcTAtODMgMzEuNS0xNTZUMTk3LTc2M3E1NC01NCAxMjctODUuNVQ0ODAtODgwcTgzIDAgMTU2IDMxLjVUNzYzLTc2M3E1NCA1NCA4NS41IDEyN1Q4ODAtNDgwcTAgODMtMzEuNSAxNTZUNzYzLTE5N3EtNTQgNTQtMTI3IDg1LjVUNDgwLTgwWm0wLTgwcTEzNCAwIDIyNy05M3Q5My0yMjdxMC03LS41LTE0LjVUNzk5LTUwN3EtNSAyOS0yNyA0OHQtNTIgMTloLTgwcS0zMyAwLTU2LjUtMjMuNVQ1NjAtNTIwdi00MEg0MDB2LTgwcTAtMzMgMjMuNS01Ni41VDQ4MC03MjBoNDBxMC0yMyAxMi41LTQwLjVUNTYzLTc4OXEtMjAtNS00MC41LTh0LTQyLjUtM3EtMTM0IDAtMjI3IDkzdC05MyAyMjdoMjAwcTY2IDAgMTEzIDQ3dDQ3IDExM3Y0MEg0MDB2MTEwcTIwIDUgMzkuNSA3LjVUNDgwLTE2MFoiLz48L3N2Zz4%3D>
-[img-wiki]: <https://img.shields.io/badge/Read_the_Wiki-423E35?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik01NjAtNTY0di02OHEzMy0xNCA2Ny41LTIxdDcyLjUtN3EyNiAwIDUxIDR0NDkgMTB2NjRxLTI0LTktNDguNS0xMy41VDcwMC02MDBxLTM4IDAtNzMgOS41VDU2MC01NjRabTAgMjIwdi02OHEzMy0xNCA2Ny41LTIxdDcyLjUtN3EyNiAwIDUxIDR0NDkgMTB2NjRxLTI0LTktNDguNS0xMy41VDcwMC0zODBxLTM4IDAtNzMgOXQtNjcgMjdabTAtMTEwdi02OHEzMy0xNCA2Ny41LTIxdDcyLjUtN3EyNiAwIDUxIDR0NDkgMTB2NjRxLTI0LTktNDguNS0xMy41VDcwMC00OTBxLTM4IDAtNzMgOS41VDU2MC00NTRaTTI2MC0zMjBxNDcgMCA5MS41IDEwLjVUNDQwLTI3OHYtMzk0cS00MS0yNC04Ny0zNnQtOTMtMTJxLTM2IDAtNzEuNSA3VDEyMC02OTJ2Mzk2cTM1LTEyIDY5LjUtMTh0NzAuNS02Wm0yNjAgNDJxNDQtMjEgODguNS0zMS41VDcwMC0zMjBxMzYgMCA3MC41IDZ0NjkuNSAxOHYtMzk2cS0zMy0xNC02OC41LTIxdC03MS41LTdxLTQ3IDAtOTMgMTJ0LTg3IDM2djM5NFptLTQwIDExOHEtNDgtMzgtMTA0LTU5dC0xMTYtMjFxLTQyIDAtODIuNSAxMVQxMDAtMTk4cS0yMSAxMS00MC41LTFUNDAtMjM0di00ODJxMC0xMSA1LjUtMjFUNjItNzUycTQ2LTI0IDk2LTM2dDEwMi0xMnE1OCAwIDExMy41IDE1VDQ4MC03NDBxNTEtMzAgMTA2LjUtNDVUNzAwLTgwMHE1MiAwIDEwMiAxMnQ5NiAzNnExMSA1IDE2LjUgMTV0NS41IDIxdjQ4MnEwIDIzLTE5LjUgMzV0LTQwLjUgMXEtMzctMjAtNzcuNS0zMVQ3MDAtMjQwcS02MCAwLTExNiAyMXQtMTA0IDU5Wk0yODAtNDk0WiIgZmlsbD0iI2ZmZmZmZiIvPjwvc3ZnPg%3D%3D>
-
-<!-- URLs -->
-[url-app-cf]: <https://curseforge.com/download/app>
-[url-app-mmcu]: <https://wiki.download.fo/readme/multimc-auto-update>
-[url-app-modrinth]: <https://modrinth.com/app>
-[url-app-multimc]: <https://multimc.org>
-[url-app-prism]: <https://prismlauncher.org>
-[url-app-vanilla]: <https://minecraft.net/en-us/download>
-[url-cf]: <https://download.fo/curseforge>
-[url-credits-comp500]: <https://github.com/comp500>
-[url-credits-comp500-Jumploader]: <https://curseforge.com/minecraft/mc-mods/jumploader>
-[url-credits-comp500-Indium]: <https://modrinth.com/mod/indium>
-[url-credits-comp500-packwiz]: <https://github.com/comp500/packwiz>
-[url-credits-jellysquid3]: <https://github.com/jellysquid3>
-[url-credits-jellysquid3-lithium]: <https://curseforge.com/minecraft/mc-mods/lithium>
-[url-credits-jellysquid3-phosphor]: <https://curseforge.com/minecraft/mc-mods/phosphor>
-[url-credits-jellysquid3-sodium]: <https://curseforge.com/minecraft/mc-mods/sodium>
-[url-credits-Kichura]: <https://github.com/Kichura>
-[url-credits-LambdAurora]: <https://github.com/LambdAurora>
-[url-credits-LambdAurora-alternatives]: <https://lambdaurora.dev/optifine_alternatives>
-[url-credits-LambdAurora-LambDynamicLights]: <https://curseforge.com/minecraft/mc-mods/lambdynamiclights>
-[url-credits-RaptaG]: <https://github.com/RaptaG>
-[url-credits-IMB11]: <https://github.com/IMB11>
-[url-credits-vgskye]: <https://github.com/vgskye>
-[url-credits-osfanbuff63]: <https://github.com/osfanbuff63>
-[url-credits-Miroma]: <https://github.com/its-miroma>
-[url-credits-translators]: <https://crowdin.com/project/fabulously-optimized/>
-[url-credits-redbrain]: <https://github.com/redbrain>
-[url-credits-RozeFound]: <https://github.com/RozeFound>
-[url-credits-TheMadHau5]: <https://github.com/themadhau5>
-[url-credits-TheYTG123]: <https://curseforge.com/members/theytg123/projects>
-[url-credits-triphora]: <https://github.com/triphora>
-[url-credits-Ultrasonic1209]: <https://github.com/Ultrasonic1209>
-[url-discord]: <https://download.fo/discord>
-[url-github]: <https://download.fo/github>
-[url-github-main-graph]: <https://github.com/Fabulously-Optimized/fabulously-optimized/graphs/contributors>
-[url-github-wiki-graph]: <https://github.com/Fabulously-Optimized/wiki/graphs/contributors>
-[url-github-org]: <https://github.com/Fabulously-Optimized>
-[url-install]: <https://download.fo/install>
-[url-mastodon]: <https://download.fo/mastodon>
-[url-modrinth]: <https://download.fo/modrinth>
-[url-options]: <https://wiki.download.fo/readme/changed-options>
-[url-rate]: <https://download.fo/rate>
-[url-rp]: <https://wiki.download.fo/readme/changed-options#resource-packs>
-[url-rp-crh-cf]: <https://curseforge.com/minecraft/texture-packs/chat-reporting-helper>
-[url-rp-crh-modrinth]: <https://modrinth.com/resourcepack/chat-reporting-helper>
-[url-rp-crh-pmc]: <https://planetminecraft.com/texture-pack/chat-reporting-helper>
-[url-rp-fbg-cf]: <https://curseforge.com/minecraft/texture-packs/fast-better-grass>
-[url-rp-fbg-modrinth]: <https://modrinth.com/resourcepack/fast-better-grass>
-[url-rp-fbg-pmc]: <https://planetminecraft.com/texture-pack/fast-better-grass>
-[url-terms]: <https://download.fo/terms>
-[url-contribute]: <https://download.fo/contribute>
-[url-translate]: <https://download.fo/translate>
-[url-tutorial-cf]: <https://wiki.download.fo/install-instructions#curseforge-app>
-[url-tutorial-mmcu]: <https://wiki.download.fo/install-instructions#multimc-auto-update>
-[url-tutorial-mmcu-ignoremods]: <https://wiki.download.fo/multimc-auto-update#can-i-ignore-some-of-the-mods>
-[url-tutorial-modrinth]: <https://wiki.download.fo/install-instructions#modrinth-app>
-[url-tutorial-multimc]: <https://wiki.download.fo/install-instructions#multimc>
-[url-tutorial-prism]: <https://wiki.download.fo/install-instructions#prism-launcher>
-[url-tutorial-vanilla]: <https://wiki.download.fo/install-instructions#minecraft-launcher-vanilla>
-[url-website]: <https://download.fo>
-[url-wiki]: <https://download.fo/wiki>
+- **Map**: [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) is included, but disabled by default, as some players may not want it. To enable it, press `]`, click "Minimap Settings", then toggle "Minimap" to ON. To open the world map, press J. The default for Xaero's is M, but it is different in this pack because M conflicts with Litmatica. You can press N to create a waypoint. Note that while disabled by default, it is against Slab rules to enable entity radar or cave mode.  
+  - [AutoServerWorldSelection](https://github.com/TheMrEngMan/AutoServerWorldSelection) is included to make Xaero's play nicely with the Resource World.
+- **[Minihud](https://modrinth.com/mod/minihud)** is included and enabled by default. If you don't like the hud, press H to disable it.
+  - **Light Overlay**: Minihud includes a light level overlay. Press F7 to toggle it.
+- **Shulkers**: [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip) and [Simple Shulker Preview](https://modrinth.com/mod/simple-shulker-preview) are included to let you see inside shulkers without having to place them. Search "Shulker" in the mod menu to disable either mod.  
+- **Better Grass** is included through [FabricBetterGrass](https://modrinth.com/mod/fabricbettergrass), but is disabled by default, as some players may not want it. To enable it, open the mod menu, search FabricBetterGrass, click the mod's icon, and change Better Grass Mode to Fancy. Then return to your world and press F3+A to refresh.  
+- **Zoom** is included through [Ok Zoomer](https://modrinth.com/mod/ok-zoomer). By default, you can press C to zoom in, and scroll to adjust your zoom level. The mod is highly configurable, so be sure to read its description if you're interested.  
+- **Fullbright** is included through [Tweakeroo](https://modrinth.com/mod/tweakeroo). You can press F6 to toggle it.
+- **[Bobby](https://modrinth.com/mod/bobby)** is included. It stores chunks on your computer in order to fake having a higher render distance than the server allows. I expect this to be very nice to have at the beginning of S4, as the server render distance will probably be lowered significantly to improve performance. To use it, simply increase your render distance to whatever value you want, and Bobby will make it happen. Note that chunks will not be visible until you've had them inside the server render distance, and they won't be visible while outside of it.
+- **Custom Title Screen**: The title is changed to Minecraft: Slab Edition and I plan to change the panorama to spawn. To disable this, simply disable the Slabcraft.zip resource pack.
+- **[RESTRICTED] Inventory**: [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) is included. Make sure to read the modding rules before using this mod, as there are restrictions related to it. It has many features related to inventory management; there is a tutorial video on its page if you're interested. For example, you can middle click an inventory to sort it. Note that its villager trading features are currently not allowed on Slab.  
+- **[RESTRICTED] [Freecam](https://github.com/MinecraftFreecam/Freecam)** is included. Make sure to read the modding rules before using this mod, as there are restrictions related to it. You can press F4 to toggle freecam mode.
+- **[RESTRICTED] [Litematica](https://modrinth.com/mod/litematica)** is included. Easyplace is not allowed.
+  - **Hardplace**: Hardplace is included through [TweakerMore](https://modrinth.com/mod/tweakermore). Press V to toggle it. Hardplace causes your game to automatically place the right block when working on a schematic. It is allowed on Slab, unlike Easyplace.

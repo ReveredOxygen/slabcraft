@@ -1,12 +1,12 @@
-name = "Fabulously Optimized"
-author = "robotkoer"
-version = "6.5.0-alpha.5"
+name = "Slabcraft"
+author = "ReveredOxygen"
+version = "2.0.0-preview"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a58fac81833e77208874c04059f281e1c1ea81a901ced7bd1662408b6cbbca69"
+hash = "01e3d10b0123b53ce54cb3af7477ee558bbc649b315dae04690f984b0bc2383a"
 
 [versions]
 fabric = "0.16.9"
