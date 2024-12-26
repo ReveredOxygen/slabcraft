@@ -1,15 +1,15 @@
 name = "configpatcher"
-filename = "configpatcher-1.0.4.jar"
+filename = "configpatcher-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://github.com/ReveredOxygen/configpatcher/releases/download/v1.0.4/configpatcher-1.0.4.jar"
+url = "https://github.com/ReveredOxygen/configpatcher/releases/download/v1.0.5/configpatcher-1.0.5.jar"
 hash-format = "sha256"
-hash = "9ac35ed36609024c781fc5d46472207fa1252d1e5c96bba45922e153f0f95d7f"
+hash = "7149f721db06f308f814887e486f8b31f9176f57956f0d06299792335e933112"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "ReveredOxygen/configpatcher"
-tag = "v1.0.4"
+tag = "v1.0.5"

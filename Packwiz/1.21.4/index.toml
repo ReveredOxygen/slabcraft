@@ -1,16 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/configpatcher/slabcraft/assume-previous-version.txt"
+hash = "bfec2e34583ada7e6af2cb73993fb75a3f7147a6c943e5ff5f5c4294fc577b90"
+
+[[files]]
 file = "config/configpatcher/slabcraft/current-version.txt"
 hash = "f22abd6773ab232869321ad4b1e47ac0c908febf4f3a2bd10c8066140f741261"
 
 [[files]]
 file = "config/configpatcher/slabcraft/patches.json"
 hash = "6f9d81b8d9284ba0b4c6fc5f80aebc09ee9411a9b9e152b3764c91e3d48d6a3c"
-
-[[files]]
-file = "config/configpatcher/slabcraft/previous-version.txt"
-hash = "bfec2e34583ada7e6af2cb73993fb75a3f7147a6c943e5ff5f5c4294fc577b90"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/configpatcher.pw.toml"
-hash = "6ff6b64505db9609357fbe6a657af32ed230d743a684dc43759ee274c8535dd0"
+hash = "8133fb88fe32f1c87754a836604866155cdf688d2bf40af6c9870424493b7657"
 metafile = true
 
 [[files]]
