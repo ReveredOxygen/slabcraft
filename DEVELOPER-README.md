@@ -35,7 +35,7 @@ Other things to note:
 ### Build process
 
 1. Do changes. Test by building pack with `packwiz mr export`. Use ViaFabricPlus to test on Slab if necessary.
-2. Update the version in `config/isxander-main-menu-credits.json` and `pack.toml`
+2. Update the version in `config/isxander-main-menu-credits.json`, `config/configpatcher/slabcraft/current-version.txt`, and `pack.toml`
 3. Remember to remove ViaFabricPlus
 4. Build pack with `packwiz mr export`
 5. Publish manually to GitHub, Modrinth

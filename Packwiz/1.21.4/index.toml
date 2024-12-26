@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/configpatcher/slabcraft/current-version.txt"
+hash = "f22abd6773ab232869321ad4b1e47ac0c908febf4f3a2bd10c8066140f741261"
+
+[[files]]
+file = "config/configpatcher/slabcraft/patches.json"
+hash = "6f9d81b8d9284ba0b4c6fc5f80aebc09ee9411a9b9e152b3764c91e3d48d6a3c"
+
+[[files]]
+file = "config/configpatcher/slabcraft/previous-version.txt"
+hash = "bfec2e34583ada7e6af2cb73993fb75a3f7147a6c943e5ff5f5c4294fc577b90"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "17cb38219c58866abb32732cbc10774f54586c0c83d33f34d6ddc8f311a5b7a9"
 
@@ -11,42 +23,6 @@ hash = "d8545359c16ffcd115d4f1b16d759a95b031c1ae34e89462fe97677161830bdd"
 [[files]]
 file = "config/splasher/en_us.txt"
 hash = "a5003a0f15f5f3a5f696c89c84f98cabd045b7c8806070dc597638d1ae06a6c0"
-
-[[files]]
-file = "config/viafabricplus/accounts.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/viafabricplus/settings.json"
-hash = "dd6650f0b275f39e550b31f8466fece76e831f148eca888045c28e83b8481bd8"
-
-[[files]]
-file = "config/viafabricplus/viaaprilfools.yml"
-hash = "44c3afa2f8138aae145e5ab9554cc75be3a7cbf19afee31ce233fc9eb4e08993"
-
-[[files]]
-file = "config/viafabricplus/viabackwards.yml"
-hash = "502df7fdbf67af87f21bfd3a630f599c86c80ed03c58a7dc0a380c2b0a742fee"
-
-[[files]]
-file = "config/viafabricplus/viabedrock.yml"
-hash = "a65346a97415ad5a6260b64a8882d9f4aff6375830ee423e9380d2dcd7114ecc"
-
-[[files]]
-file = "config/viafabricplus/viabedrock/blob_cache/data.bdbd"
-hash = "8855508aade16ec573d21e6a485dfd0a7624085c1a14b5ecdd6485de0c6839a4"
-
-[[files]]
-file = "config/viafabricplus/viabedrock/blob_cache/index.bdbi"
-hash = "75aa85525f796be89ab09fd64378b7d21a3cb487c999b2dfe6fb232b7cab2dd3"
-
-[[files]]
-file = "config/viafabricplus/vialegacy.yml"
-hash = "3c8e3c8cc81284f56e9e7e1209dc6a4eabdedcb15beffcf0830fbf4f5946acd3"
-
-[[files]]
-file = "config/viafabricplus/viaversion.yml"
-hash = "11f86062eda9a478716b3c49dd028417da862806bc225b486e3b043977ad204f"
 
 [[files]]
 file = "config/yosbr/config/NoChatReports/NCR-Client.json"
@@ -231,6 +207,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "159443320977ff331e83b7a6c09aec896efb27666864a71128540e0a8fee2a77"
+metafile = true
+
+[[files]]
+file = "mods/configpatcher.pw.toml"
+hash = "6ff6b64505db9609357fbe6a657af32ed230d743a684dc43759ee274c8535dd0"
 metafile = true
 
 [[files]]
