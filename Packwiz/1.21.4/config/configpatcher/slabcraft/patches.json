@@ -175,5 +175,14 @@
             "description": "Clean up legacy config from world-host",
             "deleteFile": {}
         }
+    ],
+    "2.0.1": [
+        {
+            "target": "config/dynamic_fps.json",
+            "description": "Restore dynamic fps config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/dynamic_fps.json"
+            }
+        }
     ]
 }

@@ -10,7 +10,7 @@ hash = "f22abd6773ab232869321ad4b1e47ac0c908febf4f3a2bd10c8066140f741261"
 
 [[files]]
 file = "config/configpatcher/slabcraft/patches.json"
-hash = "6f9d81b8d9284ba0b4c6fc5f80aebc09ee9411a9b9e152b3764c91e3d48d6a3c"
+hash = "78298ca39341c8c6d9fde217d27dccf3c2e2633964ebee64c5cc50baca9ed601"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
