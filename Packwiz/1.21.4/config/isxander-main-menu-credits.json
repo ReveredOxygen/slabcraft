@@ -9,7 +9,7 @@
                 }
             },
             {
-                "text": "Slabcraft 2.0.0-preview",
+                "text": "Slabcraft 2.0.0",
                 "clickEvent": {
                     "action": "open_url",
                     "value": "https://modrinth.com/modpack/slabcraft"
