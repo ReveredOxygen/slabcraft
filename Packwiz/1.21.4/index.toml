@@ -445,6 +445,11 @@ hash = "d5972cf1b1163e940dd3a3ac27f8ec682bcfafa9f477fc04c6b0c1261b879dbd"
 metafile = true
 
 [[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "202990d8b67325ad5f5d42cac68fe02a6823b8230a04e72126c5c618615931e2"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "c6ae02092faf1e839639394c41e12685e8788608dcaf2371962f13af5d1897db"
 metafile = true
