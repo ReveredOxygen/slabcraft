@@ -6,7 +6,7 @@ hash = "bfec2e34583ada7e6af2cb73993fb75a3f7147a6c943e5ff5f5c4294fc577b90"
 
 [[files]]
 file = "config/configpatcher/slabcraft/current-version.txt"
-hash = "f22abd6773ab232869321ad4b1e47ac0c908febf4f3a2bd10c8066140f741261"
+hash = "03467489b8fb6205988b0a529f9445b67a8cf51049beea3b2ae1ddc725b3d254"
 
 [[files]]
 file = "config/configpatcher/slabcraft/patches.json"
@@ -18,7 +18,7 @@ hash = "17cb38219c58866abb32732cbc10774f54586c0c83d33f34d6ddc8f311a5b7a9"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "c9c3c75c84019f05db173e77b46808b5c8ad1dd6821bfd66c02d38cf6b478532"
+hash = "d033de4b0be7038f37cbf7928245c38c56df7aad958fe953714a089829d0b215"
 
 [[files]]
 file = "config/splasher/en_us.txt"

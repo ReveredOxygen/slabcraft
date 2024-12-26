@@ -1,12 +1,12 @@
 name = "Slabcraft"
 author = "ReveredOxygen"
-version = "2.0.0"
+version = "2.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a6838d128b6c059b113fe2d42e3defb8ced9929be75d748a95a0de4f34d577ba"
+hash = "a7f6342f137e856d82d19fab354f42c0af994076a509d17667b9e5e952db1271"
 
 [versions]
 fabric = "0.16.9"
