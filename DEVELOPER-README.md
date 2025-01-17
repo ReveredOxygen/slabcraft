@@ -29,7 +29,7 @@ Other things to note:
 3. Hard reset the mods folder back to FO's mod folder
 4. Use this command to reinstall Slabcraft's mods, handling any mods which don't have releases for the new minecraft version
    ```sh
-   xargs -I % -n 1 "echo %; packwiz mr install -y %" < added-by-me
+   xargs -I % -n 1 sh -c "echo %; packwiz mr install -y %" < added-by-me
    ```
 
 ### Build process
