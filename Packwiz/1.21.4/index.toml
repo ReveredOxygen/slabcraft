@@ -185,7 +185,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
-hash = "26e4f4f67d765a0b15e0b29bf30415a477495b9caca3b07367ae1a1fc1c42d53"
+hash = "b8e99cb5d0340da918037b444e1f106dbe4dc90d4efcd7780e7f6b4072116452"
 metafile = true
 
 [[files]]
@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "7f1d80bd9ce349dcafc53aae6e241d77b36299ca856a6c124ce056f02232b267"
+hash = "97e454d48daaea733090b171ff754fd0f6f55e2a094fab1ab471f802aa1b184a"
 metafile = true
 
 [[files]]
@@ -245,7 +245,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "a02a12b02749ee7e040755b792b6b1414948904700cf0234208c11d7056856f8"
+hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
 metafile = true
 
 [[files]]
@@ -315,7 +315,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "9cad7e96acabaef97ffcb679017c1d38825bcd99fb6b84e7a7068508f32ea900"
+hash = "77caf9a66f2d4b09eecd48aae413eee4179d934215a275a08315ff205a8ec1b3"
 metafile = true
 
 [[files]]
@@ -340,12 +340,12 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "2ef95df1f458f796f5af5f7db3f6a75b2bdace7b4d59bf0e3b5a2c29979a8e02"
+hash = "60ce985c3bf7db91eeaa94327b0ec0f440eb6215d1fa0270e122bcbf5ba0f5ff"
 metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "8762a69192807f43aafb743910bb9808a56035a3473c3019d2dbf44259ceeb9b"
+hash = "be1bd0d63844c008fffe131b9912ff54733e20d715ee602947253676af07b3f0"
 metafile = true
 
 [[files]]
@@ -360,12 +360,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "8fba97b7d2e713cfbe399578abd0d086510fdb9d2fa4806e0e5231b5012f5ff2"
+hash = "13f4a38022d7e100dc13b05b0513b6693f2de8a5d8a8ee6d40d8099981c4a929"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "3b572c9f0cce22e88577ed6c6c8e7daa2e07e46387d0cc6777d6a5feaec73c4c"
+hash = "f79baa6d61e51f67be6417450db3e49f9b56c4602c82692a3adc24f6e0a5d133"
 metafile = true
 
 [[files]]
@@ -445,7 +445,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-shulker-preview.pw.toml"
-hash = "02e57dbab24e962ef6d5b0311ba208e99aaf48d9fe23503312405cf86630ed3e"
+hash = "1892739fdc194e0f77059d8695b258a76dbc6c92c73eecd79ed73233ad52a1c9"
 metafile = true
 
 [[files]]
@@ -465,12 +465,12 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "d5972cf1b1163e940dd3a3ac27f8ec682bcfafa9f477fc04c6b0c1261b879dbd"
+hash = "b3217e09ee3fa8897fe78cc7394bd14e31fc513ce12ac5f58664674b32e79e5f"
 metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "202990d8b67325ad5f5d42cac68fe02a6823b8230a04e72126c5c618615931e2"
+hash = "6b3c217dff9042118994a4d55b3d149390943d054808a1ecc978c50dbca65fe1"
 metafile = true
 
 [[files]]
