@@ -2,7 +2,7 @@
     "main_menu": {
         "bottom_right": [
             {
-                "text": "Fabulously Optimized 6.5.0-alpha.5",
+                "text": "Fabulously Optimized 6.5.0-alpha.7",
                 "clickEvent": {
                     "action": "open_url",
                     "value": "https://download.fo"

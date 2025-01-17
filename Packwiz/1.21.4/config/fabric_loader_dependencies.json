@@ -8,7 +8,7 @@
         },
         "minecraft": {
             "+recommends": {
-                "Fabulously Optimized": ">6.5.0-alpha.5"
+                "Fabulously Optimized": ">6.5.0-alpha.7"
             }
         },
         "optigui": {

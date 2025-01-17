@@ -7,8 +7,8 @@ joinedFirstServer:true
 maxFps:260
 onboardAccessibility:false
 operatorItemsTab:true
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
-incompatibleResourcePacks:["appleskin","controlling","searchables","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
+resourcePacks:["vanilla","fabric","continuity:glass_pane_culling_fix","continuity:default","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","file/Fast Better Grass.zip","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
+incompatibleResourcePacks:["modernfix", "appleskin","controlling","searchables","xaerominimap","xaeroworldmap","yet_another_config_lib_v3","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
 simulationDistance:8
 skipMultiplayerWarning:true
 telemetryOptInExtra:false
