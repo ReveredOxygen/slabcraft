@@ -40,6 +40,9 @@
         "autorefill_blacklist": "minecraft:totem_of_undying,minecraft:potion",
         "auto_refill_enable_indicator_icons": {
             "value": false
+        },
+        "allow_break_for_non_enchanted": {
+            "value": true
         }
     },
     "Hotkeys": {

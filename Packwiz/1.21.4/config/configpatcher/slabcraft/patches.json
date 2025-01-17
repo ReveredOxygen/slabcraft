@@ -184,5 +184,15 @@
                 "source": "config/yosbr/config/dynamic_fps.json"
             }
         }
+    ],
+    "2.0.2": [
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Allow breaking unenchanted iron/stone/wood tools",
+            "regex": {
+                "regex": "}\\s*},\\s*\"Hotkeys\"",
+                "replacement": "},\"allow_break_for_non_enchanted\":{\"value\":true}},\"Hotkeys\""
+            }
+        }
     ]
 }

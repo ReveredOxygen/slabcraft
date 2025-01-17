@@ -6,11 +6,11 @@ hash = "bfec2e34583ada7e6af2cb73993fb75a3f7147a6c943e5ff5f5c4294fc577b90"
 
 [[files]]
 file = "config/configpatcher/slabcraft/current-version.txt"
-hash = "03467489b8fb6205988b0a529f9445b67a8cf51049beea3b2ae1ddc725b3d254"
+hash = "31186721be50d1033545dfeee9d6ee118b54fb1b974ea909ab2e960e0b7c049b"
 
 [[files]]
 file = "config/configpatcher/slabcraft/patches.json"
-hash = "78298ca39341c8c6d9fde217d27dccf3c2e2633964ebee64c5cc50baca9ed601"
+hash = "d5a17b09823c187d886194d7a394556a6529d04aed907c4d2c3a47900913f3a8"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -94,7 +94,7 @@ hash = "17225e085e6759210cec7e829e00c8c90f9c5d38714835cb5da9c98398842f7d"
 
 [[files]]
 file = "config/yosbr/config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "49264e4ffd1c56141ae292c4c6e6b8bc8431b1b00ff35eb161b6a0c71071ef02"
+hash = "7fb878fb7e28220d32d06afe2b7831ad33ea1639045fd5ebeb19d3e3c21e98b2"
 
 [[files]]
 file = "config/yosbr/config/iris.properties"
