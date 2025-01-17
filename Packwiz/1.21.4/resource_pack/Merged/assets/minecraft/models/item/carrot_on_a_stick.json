@@ -1,0 +1,14 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1000000}, "model": "item/wrench"},
+		{"predicate": {"custom_model_data":2000000}, "model": "item/wrench_flip"},
+		{"predicate": {"custom_model_data":3000000}, "model": "item/wrench_face_player"},
+		{"predicate": {"custom_model_data":4000000}, "model": "item/wrench_face_click"},
+		{"predicate": {"custom_model_data":5000000}, "model": "item/wrench_terracotta"}
+	]
+}
