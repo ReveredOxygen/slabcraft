@@ -10,7 +10,7 @@ hash = "31186721be50d1033545dfeee9d6ee118b54fb1b974ea909ab2e960e0b7c049b"
 
 [[files]]
 file = "config/configpatcher/slabcraft/patches.json"
-hash = "d5a17b09823c187d886194d7a394556a6529d04aed907c4d2c3a47900913f3a8"
+hash = "2f49bf4f9276aea180e5ef4e4edf258745f8b4036287009580c984c121c71e69"
 
 [[files]]
 file = "config/entity_texture_features.json"

@@ -193,6 +193,14 @@
                 "regex": "}\\s*},\\s*\"Hotkeys\"",
                 "replacement": "},\"allow_break_for_non_enchanted\":{\"value\":true}},\"Hotkeys\""
             }
+        },
+        {
+            "target": "options.txt",
+            "description": "Enable continuity resource packs",
+            "regex": {
+                "regex": "resourcePacks:\\[\"vanilla\",\"fabric\",",
+                "replacement": "resourcePacks:[\"vanilla\",\"fabric\",\"continuity:glass_pane_culling_fix\",\"continuity:default\","
+            }
         }
     ]
 }
