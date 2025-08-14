@@ -1,0 +1,206 @@
+{
+    "2.0.0": [
+        {
+            "target": "config/xaerominimap.txt",
+            "description": "Disable entity radar in xaeros",
+            "replaceString": {
+                "original": "entityRadar:true",
+                "replacement": "entityRadar:false"
+            }
+        },
+        {
+            "target": "config/xaerominimap.txt",
+            "description": "Disable cave maps in xaeros minimap",
+            "regex": {
+                "regex": "caveMaps:\\d+",
+                "replacement": "caveMaps:0"
+            }
+        },
+        {
+            "target": "config/xaerominimap.txt",
+            "description": "Disable auto update in xaeros minimap",
+            "replaceString": {
+                "original": "ignoreUpdate:0",
+                "replacement": "ignoreUpdate:1"
+            }
+        },
+        {
+            "target": "config/xaeroworldmap.txt",
+            "description": "Disable auto update in xaeros world map",
+            "replaceString": {
+                "original": "ignoreUpdate:0",
+                "replacement": "ignoreUpdate:1"
+            }
+        },
+        {
+            "target": "options.txt",
+            "description": "Reconfigure enabled resource packs",
+            "regex": {
+                "regex": "(?m)^resourcePacks:.*$",
+                "replacement": "resourcePacks:[\"vanilla\",\"fabric\",\"file/SodiumTranslations.zip\",\"file/Mod Menu Helper.zip\",\"file/Chat Reporting Helper.zip\",\"file/Fast Better Grass.zip\",\"file/LGBeeT_1.20.3-1.20.4.zip\",\"file/Slabcraft.zip\"]"
+            }
+        },
+        {
+            "target": "options.txt",
+            "description": "Reconfigure incompatible but enabled resource packs",
+            "regex": {
+                "regex": "(?m)^incompatibleResourcePacks:.*$",
+                "replacement": "incompatibleResourcePacks:[\"appleskin\",\"controlling\",\"searchables\",\"xaerominimap\",\"xaeroworldmap\",\"yet_another_config_lib_v3\",\"file/LGBeeT_1.20.3-1.20.4.zip\",\"file/Slabcraft.zip\"]"
+            }
+        },
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Disable armor refill",
+            "regex": {
+                "regex": "AutoRefillSettings\": \\{",
+                "replacement": "AutoRefillSettings\": { \"refill_armor\": {\"value\": false}, \"auto_refill_enable_indicator_icons\": {\"value\": false},"
+            }
+        },
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Disable r+y spamming chat",
+            "regex": {
+                "regex": "Hotkeys\": \\{",
+                "replacement": "Hotkeys\": { \"reload_custom_configs\": { \"main\": { \"keys\": \"\" } },"
+            }
+        },
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Disable r+y spamming chat",
+            "regex": {
+                "regex": "Hotkeys\": \\{",
+                "replacement": "Hotkeys\": { \"reload_custom_configs\": { \"main\": { \"keys\": \"\" } },"
+            }
+        },
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Disable continuous crafting by default",
+            "regex": {
+                "regex": "\\},\\s*\"AutoRefillSettings",
+                "replacement": ", \"continuous_crafting_saved_value\": false }, \"AutoRefillSettings"
+            }
+        },
+        {
+            "target": "config/capes.json5",
+            "description": "Restore Capes config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/capes.json5"
+            }
+        },
+        {
+            "target": "config/fastquit.toml",
+            "description": "Restore fastquit config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/fastquit.toml"
+            }
+        },
+        {
+            "target": "config/modmenu.json",
+            "description": "Restore modmenu config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/modmenu.json"
+            }
+        },
+        {
+            "target": "config/NoChatReports",
+            "description": "Remove legacy NCR config",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/NoChatReports",
+            "description": "Restore NCR config to FO defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/NoChatReports"
+            }
+        },
+        {
+            "target": "config/sodium-options.json",
+            "description": "Restore sodium config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/sodium-options.json"
+            }
+        },
+        {
+            "target": "config/bettergrass.json5",
+            "description": "Clean up legacy config from bettergrass",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/cull-less-leaves.json",
+            "description": "Clean up legacy config from cull-less-leaves",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/enhanced_bes.properties",
+            "description": "Clean up legacy config from enhanced_bes",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/entityculling.json",
+            "description": "Clean up legacy config from entityculling",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/ferritecore.mixin.properties",
+            "description": "Clean up legacy config from ferritecore",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/immediatelyfast.json",
+            "description": "Clean up legacy config from immediatelyfast",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/modernfix-mixins.properties",
+            "description": "Clean up legacy config from modernfix",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/ryoamiclights.toml",
+            "description": "Clean up legacy config from ryoamiclights",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/shopslookup.json",
+            "description": "Clean up legacy config from shopslookup",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/threadtweak.json",
+            "description": "Clean up legacy config from threadtweak",
+            "deleteFile": {}
+        },
+        {
+            "target": "config/world-host.json5",
+            "description": "Clean up legacy config from world-host",
+            "deleteFile": {}
+        }
+    ],
+    "2.0.1": [
+        {
+            "target": "config/dynamic_fps.json",
+            "description": "Restore dynamic fps config to FO defaults instead of Additive defaults",
+            "copyFile": {
+                "source": "config/yosbr/config/dynamic_fps.json"
+            }
+        }
+    ],
+    "2.0.2": [
+        {
+            "target": "config/inventoryprofilesnext/inventoryprofiles.json",
+            "description": "Allow breaking unenchanted iron/stone/wood tools",
+            "regex": {
+                "regex": "}\\s*},\\s*\"Hotkeys\"",
+                "replacement": "},\"allow_break_for_non_enchanted\":{\"value\":true}},\"Hotkeys\""
+            }
+        },
+        {
+            "target": "options.txt",
+            "description": "Enable continuity resource packs",
+            "regex": {
+                "regex": "resourcePacks:\\[\"vanilla\",\"fabric\",",
+                "replacement": "resourcePacks:[\"vanilla\",\"fabric\",\"continuity:glass_pane_culling_fix\",\"continuity:default\","
+            }
+        }
+    ]
+}

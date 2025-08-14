@@ -1,0 +1,49 @@
+{
+    "hand_animation_on_swap": true,
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+                "threshold": 1000000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/wrench"
+                }
+            },
+            {
+                "threshold": 2000000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/wrench_flip"
+                }
+            },
+            {
+                "threshold": 3000000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/wrench_face_player"
+                }
+            },
+            {
+                "threshold": 4000000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/wrench_face_click"
+                }
+            },
+            {
+                "threshold": 5000000,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/wrench_terracotta"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/carrot_on_a_stick"
+        }
+    }
+}

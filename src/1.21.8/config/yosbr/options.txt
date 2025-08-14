@@ -7,8 +7,8 @@ joinedFirstServer:true
 maxFps:260
 onboardAccessibility:true
 operatorItemsTab:true
-resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","continuity:glass_pane_culling_fix","continuity:default"]
-incompatibleResourcePacks:["entityculling","trender","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","file/SodiumTranslations.zip","file/Mod Menu Helper.zip","file/Chat Reporting Helper.zip","continuity:glass_pane_culling_fix","continuity:default","file/Fast Better Grass.zip","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
+incompatibleResourcePacks:["entityculling","trender","yet_another_config_lib_v3","file/LGBeeT_1.20.3-1.20.4.zip","file/Slabcraft.zip"]
 simulationDistance:8
 skipMultiplayerWarning:true
 telemetryOptInExtra:false
@@ -22,3 +22,5 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
 key_key.optigui.inspect:key.keyboard.unknown
 key_key.bigshot.take_screenshot_2x:key.keyboard.f9
+key_gui.xaero_waypoints_key:key.keyboard.n
+key_gui.xaero_open_map:key.keyboard.j
